@@ -9,14 +9,14 @@ export default function Projetos() {
       descricao:
         "Desenvolvi sozinha um sistema de cadastro para filmes, onde um administrador podia adicionar e visualizar todos os itens cadastrados. Aprimorei habilidades de JavaScript, HTML e CSS na prática.",
       github: "https://github.com/Gabi1016/MINI-PROJETO-M2.git",
-      img: "cadastro-filmes.png"
+      img: "miniprojeto.png"
     },
     {
       titulo: "Quiz Interativo",
       descricao:
         "Trabalhei em equipe em um quiz interativo do curso PDA, desenvolvendo várias funcionalidades em JavaScript, incluindo validação de respostas e lógica de pontuação. Aprendi a integrar colaboração e programação de front-end.",
       github: "https://github.com/Gabi1016/Projeto-Final2.git",
-      img: "quiz-interativo.png"
+      img: "grupo.png"
     }
   ];
 

@@ -4,7 +4,7 @@ import styles from "./Footer.module.css";
 
 export default function Footer() {
   return (
-    <footer className={styles.footer}>
+    <footer className={styles.footer} id="contato">
       <p>© 2025 Gabriela Flores Costa</p>
       <div className={styles.links}>
         <a

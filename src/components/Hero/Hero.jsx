@@ -34,7 +34,7 @@ export default function Hero() {
 
       <div className={styles.imageWrapper}>
         <img
-          src="/gabi.jpg" 
+          src="/eu.png" 
           alt="Gabriela sorrindo"
           className={styles.image}
         />
