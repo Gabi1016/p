@@ -1,16 +1,55 @@
-# React + Vite
+# Portfólio de Gabriela Flores Costa
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Bem-vindo ao portfólio da **Gabriela Flores Costa**, desenvolvedora **Front-End em formação**, com foco em criar experiências digitais modernas, funcionais e elegantes. Este portfólio apresenta seus projetos, habilidades e informações de contato.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🎨 Visual e Estilo
 
-## React Compiler
+O portfólio foi desenvolvido com uma estética **moderna e feminina**, predominando **tons de roxo** e efeitos sutis de **nebulosa e estrelas animadas**. O layout é **responsivo**, garantindo ótima visualização em dispositivos móveis, tablets e desktops.
 
-The React Compiler is not enabled on this template. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## 🛠 Tecnologias utilizadas
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- **React** (Componentes funcionais)
+- **Vite** (Build tool)
+- **CSS Modules** (Estilização modular e scoped)
+- **React Icons** (Ícones de redes sociais)
+- HTML5 & CSS3
+
+---
+
+## 📂 Estrutura do Projeto
+
+- `/src/components` - Componentes React como `Menu`, `Hero`, `Sobre`, `Projetos`, `ProjetoCard` e `Footer`.
+- `/src/assets` - Imagens utilizadas no portfólio (foto, prints dos projetos, etc.).
+- `/src/App.jsx` - Arquivo principal que organiza a estrutura das seções.
+- `/src/main.jsx` - Entrada do React com Vite.
+- `/src/styles` - CSS global e configurações de fontes.
+
+---
+
+## 💻 Seções do Portfólio
+
+1. **Hero**: Apresentação da Gabriela com foto, cargo e botão para contato.
+2. **Sobre**: Informações pessoais e motivação profissional.
+3. **Projetos**: Cards com descrição, print e links para GitHub de cada projeto.
+4. **Contato / Footer**: Links para LinkedIn, Instagram e email com ícones interativos.
+
+---
+
+## 📂 Projetos em destaque
+
+- **Cadastro de Filmes**: Sistema desenvolvido individualmente, permitindo que o administrador cadastre e visualize filmes.  
+- **Quiz Interativo**: Desenvolvido em equipe, quiz com lógica de perguntas, respostas corretas e validação de acertos.  
+
+*Mais projetos podem ser adicionados conforme novos trabalhos forem realizados.*
+
+---
+
+## 🚀 Rodando o projeto localmente
+
+1. Clone o repositório:
+```bash
+git clone https://github.com/Gabi1016/GabrielaPortfolio.git
