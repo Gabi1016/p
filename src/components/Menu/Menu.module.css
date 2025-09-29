@@ -1,0 +1,53 @@
+.containerMenu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.8rem 2.5rem;
+  background-color: #1a0033;
+  color: #e2d9f3;
+  border-bottom: 1px solid #bb86fc;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+.logo {
+  font-family: 'Poppins', sans-serif;
+  font-size: 1.3rem;
+  font-weight: 600;
+  background: linear-gradient(90deg, #7f5aff, #c77dff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.menu {
+  list-style: none;
+  display: flex;
+  gap: 1.5rem;
+}
+
+.menu li a {
+  text-decoration: none;
+  color: #e2d9f3;
+  font-size: 0.9rem;
+  font-weight: 500;
+  transition: color 0.3s ease, transform 0.3s ease;
+}
+
+.menu li a:hover {
+  color: #c77dff;
+  transform: translateY(-2px);
+}
+
+/* Responsividade */
+@media (max-width: 768px) {
+  .containerMenu {
+    flex-direction: column;
+    padding: 0.8rem 1rem;
+  }
+
+  .menu {
+    margin-top: 0.8rem;
+    flex-direction: column;
+    text-align: center;
+    gap: 0.8rem;
+  }
+}
